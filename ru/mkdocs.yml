@@ -140,6 +140,7 @@ nav:
         - 'Если ваш номер заблокирован': 'faq/if-your-number-is-blocked.md'
         - 'Особенности отправки и получения сообщений на номера разных стран': 'faq/features-of-sending-and-receiving-messages-from-different-countries.md'
         - 'Как предотвратить постоянное отключение QR-сессии?': 'faq/how-can-I-prevent-a-QR-session-from-being-permanently-disconnected.md'
+        - 'Как предотвратить повторную блокировку при использовании нового номера?': 'faq/how-to-prevent-re-blocking-when-using-a-new-number.md'
   - Релизы:
         - "Оглавление": 'release/index.md'
         - 'Список релизов':
