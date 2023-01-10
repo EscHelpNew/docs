@@ -40,13 +40,7 @@ Parameter | Type |  Description
 `category` | **string** | Business contact category
 `description` | **string** | Business contact description
 `products` | **object** | Contact products cards
-`chatId` | **string** | [Идентификатор корреспондента](../chat-id.md)
-`lastSeen` | **string** | Время последнего статуса онлайн
-`isArchive` | **string** | Статус архивации чата, принимает значения true/false
-`isDisappearing` | **string** | Статус исчезающих сообщений чата, принимает значения true/false
-`isMute` | **string** | Статус уведомлений чата, принимает значения true/false
-`messageExpiration` | **integer** | Время жизни сообщений в чате, в секундах
-`muteExpiration` | **integer** | Время, через сколько будут включены уведомления в чате
+
 
 
 `products` object parameters

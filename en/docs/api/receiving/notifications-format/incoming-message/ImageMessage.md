@@ -27,10 +27,8 @@ Parameter | Type | Description
 `downloadUrl` | **string** | Link to download file
 `caption` | **string** | File caption
 | `fileName` | **string** | File name |
-| `jpegThumbnail` | **string** | Предпросмотр изображения в base64 |
 | `mimeType` | **string** | File type according to the classification [Media Types](https://www.iana.org/assignments/media-types/media-types.xhtml) |
-|`isForwarded` | **boolean** | Является ли сообщение пересланным, принимает значения true/false
-|`forwardingScore` | **integer** | Количество пересылок сообщения
+
 
 `quotedMessage` object parameters
 

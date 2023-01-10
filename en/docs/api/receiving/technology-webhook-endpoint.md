@@ -2,7 +2,7 @@
 
 Webhook Endpoint technology allows you to receive incoming webhooks directly to your server. This means that the Green API server will make a call to the method published on your server side. The advantage of this technology is the fastest possible receipt of incoming webhooks and high capacity, limited only by the rate of processing webhooks on your server side. The disadvantages include the implementation complexity. 
 
-> Сервер Green API выполняет попытки доставки уведомлений с интервалом в 1 минуту. Поэтому, настраивайте свой сервер таким образом, чтобы он всегда был доступен для обработки входящих уведомлений, либо воспользуйтесь технологией [Получение уведомлений через HTTP API](technology-http-api.md). Доставка входящих уведомлений гарантируется в течение 24 часов. 
+> The Green API server makes attempts to deliver webhooks at 1-minute interval. Therefore, set up your server so that it is always available to process incoming webhooks, or use [Receive webhooks via HTTP API](technology-http-api.md) technology. The delivery of incoming webhooks is guaranteed within 24 hours. 
 
 ## Server setting
 

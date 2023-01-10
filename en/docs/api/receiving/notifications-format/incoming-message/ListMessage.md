@@ -30,8 +30,8 @@ To get incoming webhooks of this type, two conditions must be true:
 | `listMessage` | **object** | Buttons data object |
 |`buttonText` | **string** | No | selection list button text|
 |`sections` | **array** | Yes | selection list values|
-|`isForwarded` | **boolean** | Является ли сообщение пересланным, принимает значения true/false
-|`forwardingScore` | **integer** | Количество пересылок сообщения
+|`isForwarded` | **boolean** | Is the forwarded message, принимает значения true/false
+|`forwardingScore` | **integer** | Count forwarded
 
 `sections` array parameters
 

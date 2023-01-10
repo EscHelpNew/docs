@@ -46,16 +46,16 @@ Object with parameters:
 |                       |                                                            | `videoMessage` - video message                                                                             | 
 |                       |                                                            | `documentMessage` - document file message                                                                  |        
 |                       |                                                            | `audioMessage` - audio message                                                                             |     
-|                       |                                                            | `locationMessage` - сообщение геолокации                                                                   |
+|                       |                                                            | `locationMessage` - location message                                                                   |
 |                       |                                                            | `contactMessage` - contact message                                                                         |   
 |                       |                                                            | `extendedTextMessage` - link and preview message                                                           |
-|                       |                                                            | `quotedMessage` - сообщение с цитированием (УСТАРЕЛО)                                                      | 
-|                       |                                                            | `buttonsMessage` - сообщение с кнопками                                                                    |
-|                       |                                                            | `templateMessage` - сообщение с шаблонными кнопками                                                        |
-|                       |                                                            | `listMessage` - сообщение с кнопкой со списком                                                             |
-|                       |                                                            | `buttonsResponseMessage` - ответ с кнопками                                                                |
-|                       |                                                            | `templateButtonsReplyMessage` - ответ с фигурными кнопками                                                 |
-|                       |                                                            | `listResponseMessage` - ответ со списком                                                                   |
+|                       |                                                            | `quotedMessage` - Quoted message (deprecated)                                                      | 
+|                       |                                                            | `buttonsMessage` - buttons message                                                                    |
+|                       |                                                            | `templateMessage` - template buttons message                                                        |
+|                       |                                                            | `listMessage` - selection list message                                                           |
+|                       |                                                            | `buttonsResponseMessage` - simple button selection                                                              |
+|                       |                                                            | `templateButtonsReplyMessage` - template button selection                                                 |
+|                       |                                                            | `listResponseMessage` - list element selection                                                                  |
 | `chatId`              | **string**                                                 | [Chat Id](../chat-id.md)                                                                                   |
 | `senderId`            | **string**                                                 | Incoming message sender [Id](../chat-id.md#corr). Present only for `type` = `incoming`                     |
 | `senderName`          | **string**                                                 | Incoming message sender name. Present only for `type` = `incoming`                                         |
@@ -65,7 +65,7 @@ Object with parameters:
 | `location`            | **object**                                                 | Location structure object, if `typeMessage`=`locationMessage`                                              |
 | `contact`             | **object**                                                 | Contact structure object, if `typeMessage`=`contactMessage`                                                |
 | `extendedTextMessage` | **object**                                                 | Link data structure object, if `typeMessage`=`extendedTextMessage`                                         |
-| `quotedMessage`       | **object**                                                 | Объект данных о цитируемом сообщении. Присутствует только, если само сообщение является цитатой            |
+| `quotedMessage`       | **object**                                                 | Object quoted message            |
 
 Parameters of `location` object:
 
@@ -93,8 +93,8 @@ Parameters of `extendedTextMessage` object:
 | `title`         | **string** | Link title                   |
 | `previewType`   | **string** | Link preview type            |
 | `jpegThumbnail` | **string** | `base64`-coded image preview |
-| `stanzaId`      | **string** | ID цитируемого сообщения     |
-| `participant`   | **string** | ID чата получателя           |
+| `stanzaId`      | **string** | Quoted message ID     |
+| `participant`   | **string** | Recipient chat ID         |
 
 ### Response body example {#response-example-body}
 

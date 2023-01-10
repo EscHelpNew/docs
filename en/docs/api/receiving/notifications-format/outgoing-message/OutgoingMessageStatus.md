@@ -19,7 +19,7 @@ Parameter | Type | Description
 | | `failed` - an error occurred while sending a message to WhatsApp server
 | | `noAccount` - the recipient's phone number does not have a WhatsApp account 
 | | `notInGroup` - the sender is not a participant of a group chat where the message is being sent to
-`sendByApi` | **boolean** | Флаг указывает отправлено сообщение из API или нет, принимает значения: true , false
+`sendByApi` | **boolean** | Is the message sent through API: true , false
 
 `instanceData` object parameters
 
