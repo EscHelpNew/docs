@@ -19,7 +19,7 @@ Parameter | Type | Description                                                  
 `typeMessage` | **string** | Received message type. For messages of this type, the parameter takes on the value: `imageMessage`, `videoMessage`, `documentMessage`, `audioMessage` |
 `fileMessageData ` | **object** | Received file data object                                                                                                                 |
 | `quotedMessage`   | **object** | Quoted message data object. Present only if the message itself is a quote                                                                 |        
-|
+
 `fileMessageData` object parameters 
 
 Parameter | Type | Description
