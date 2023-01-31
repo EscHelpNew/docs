@@ -72,4 +72,4 @@
     print(prepare_whatsapp_number("+5592981386116")) #phone number not working
     ```
 
-Информация взята из [стати](https://support.gupshup.io/hc/ru/articles/4407840924953-A-brief-note-on-the-inconsistencies-for-mobile-numbers-and-their-WhatsApp-IDs-in-Brazil-digit-9-Mexico-digit-1-)
+Информация взята из [статьи](https://support.gupshup.io/hc/ru/articles/4407840924953-A-brief-note-on-the-inconsistencies-for-mobile-numbers-and-their-WhatsApp-IDs-in-Brazil-digit-9-Mexico-digit-1-)
